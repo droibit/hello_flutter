@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
         title: 'Welcome to Flutter',
         theme: ThemeData(primarySwatch: Colors.blue),
         home: Scaffold(
-            appBar: AppBar(
-              title: Text('Welcome to Flutter'),
-            ),
-//            body: PackingLayout()
+          appBar: AppBar(
+            title: Text('Welcome to Flutter'),
+          ),
+//          body: PavlovaLayout(title: 'Strawberry Pavlova Recipe'),
           body: Text('Hello, World')
-            ));
+        ));
   }
 }
