@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart' show debugPaintSizeEnabled;
+//import 'package:flutter/rendering.dart' show debugPaintSizeEnabled;
 
 //void main() => runApp(new MyApp());
 void main() {
@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
         title: 'Welcome to Flutter',
         theme: ThemeData(primarySwatch: Colors.blue),
         home: Scaffold(
-          appBar: AppBar(
-            title: Text('Welcome to Flutter'),
-          ),
+            appBar: AppBar(
+              title: Text('Welcome to Flutter'),
+            ),
+//            body: PackingLayout()
           body: Text('Hello, World')
-        ));
+            ));
   }
 }
-

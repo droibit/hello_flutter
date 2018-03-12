@@ -29,6 +29,15 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - images/lake.jpeg
+    - images/column_pic1.jpg
+    - images/column_pic2.jpg
+    - images/column_pic3.jpg
+    - images/row_pic1.jpg
+    - images/row_pic2.jpg
+    - images/row_pic3.jpg
+    - images/row_expanded_pic1.jpg
+    - images/row_expanded_pic2.jpg
+    - images/row_expanded_pic3.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
