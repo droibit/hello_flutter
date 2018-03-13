@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+//import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 //import 'package:flutter/rendering.dart' show debugPaintSizeEnabled;
 
@@ -12,14 +12,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Welcome to Flutter',
-      theme: ThemeData(primarySwatch: Colors.blue),
+        title: 'Welcome to Flutter',
+        theme: ThemeData(primarySwatch: Colors.blue),
         home: Scaffold(
             appBar: AppBar(
               title: Text('Welcome to Flutter'),
             ),
-//          body: ListLayout1(),
-            body: Text('Hello, World'))
+//          body: StackLayout(),
+            body: Text('Hello, World')
+        )
     );
   }
 }
