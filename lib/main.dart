@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text('Welcome to Flutter'),
           ),
-//          body: PavlovaLayout(title: 'Strawberry Pavlova Recipe'),
+//          body: ContainerLayout(),
           body: Text('Hello, World')
         ));
   }
