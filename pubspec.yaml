@@ -10,6 +10,11 @@ dependencies:
   cupertino_icons: ^0.1.0
   english_words: ^3.1.0
 
+  flutter_gallery_assets:
+    git:
+      url: https://flutter.googlesource.com/gallery-assets
+      ref: d318485f208376e06d7e330d9f191141d14722b8
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -39,6 +44,8 @@ flutter:
     - images/row_expanded_pic2.jpg
     - images/row_expanded_pic3.jpg
     - images/pavlova.jpg
+    - packages/flutter_gallery_assets/top_10_australian_beaches.jpg
+    - packages/flutter_gallery_assets/kangaroo_valley_safari.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
