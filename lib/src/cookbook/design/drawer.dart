@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 // ref. https://flutter.dev/docs/cookbook/design/drawer
-
 class MyApp extends StatelessWidget {
   final String title;
 

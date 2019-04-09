@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ref. https://flutter.dev/docs/cookbook/design/themes
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
