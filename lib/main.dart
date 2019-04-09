@@ -1,4 +1,4 @@
 import 'package:flutter/material.dart';
-import 'src/cookbook/images/network_image.dart';
+import 'src/cookbook/lists/long_lists.dart';
 
 void main() => runApp(MyApp());
