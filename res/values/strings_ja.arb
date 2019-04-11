@@ -1,0 +1,5 @@
+{
+  "app_name": "hello_flutter(ja)",
+  "hello": "こんにちは!",
+  "greetTo": "はじめまして, $name!"
+}

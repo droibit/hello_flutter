@@ -1,4 +1,4 @@
 import 'package:flutter/material.dart';
-import 'src/slivers_demystified.dart';
+import 'src/internationalization.dart';
 
 void main() => runApp(MyApp());
